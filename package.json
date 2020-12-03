@@ -1,0 +1,17 @@
+{
+  "name": "postgraphile-node",
+  "version": "0.0.1",
+  "description": "Query Postgraphile in Node without SQL or network requests",
+  "main": "index.js",
+  "author": {
+    "name": "Drew Wiens",
+    "email": "drewwiens0@gmail.com",
+    "url": "https://www.drewwiens.com/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "postgraphile": "^4.7.0",
+    "graphql-request": "^2.1.0 || ^3.0.0",
+    "node-mocks-http": "^1.9.0"
+  }
+}
