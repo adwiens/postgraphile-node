@@ -1,6 +1,6 @@
 # postgraphile-node
 
-Query Postgraphile directly with GQL from the same Node app.
+Query Postgraphile from the same Node app.
 
 ## Usage
 
