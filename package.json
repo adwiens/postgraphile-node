@@ -1,6 +1,6 @@
 {
   "name": "postgraphile-node",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Query Postgraphile in Node without SQL or network requests",
   "main": "index.js",
   "author": {
@@ -9,9 +9,11 @@
     "url": "https://www.drewwiens.com/"
   },
   "license": "MIT",
-  "dependencies": {
-    "postgraphile": "^4.7.0",
+  "peerDependencies": {
     "graphql-request": "^2.1.0 || ^3.0.0",
+    "postgraphile": "^4.7.0"
+  },
+  "dependencies": {
     "node-mocks-http": "^1.9.0"
   },
   "homepage": "https://github.com/adwiens/postgraphile-node"
